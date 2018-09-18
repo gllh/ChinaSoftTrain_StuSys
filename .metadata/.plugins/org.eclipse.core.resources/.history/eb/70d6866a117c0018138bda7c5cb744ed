@@ -1,0 +1,28 @@
+package com.zr.controller;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.web.HttpRequestHandler;
+
+import com.zr.entity.Student;
+
+public class StudentRequestHandler implements HttpRequestHandler  {
+
+	@Override
+	public void handleRequest(HttpServletRequest arg0, HttpServletResponse arg1)
+			throws ServletException, IOException {
+		ArrayList<Student> list = new ArrayList<Student>();
+		list.add(new Student(1, "stu001", "张三", "男", 20));
+		list.add(new Student(2, "stu002", "张三2", "男", 20));
+		arg0.setAttribute("list", list);
+		//指定要跳转的jsp
+		arg0.getRequestDispatcher("/index.jsp").forward(arg0, arg1);
+		
+	}
+
+}

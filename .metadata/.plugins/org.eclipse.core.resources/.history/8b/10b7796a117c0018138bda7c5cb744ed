@@ -1,0 +1,30 @@
+package com.zr.controller;
+
+import java.util.ArrayList;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.Controller;
+
+import com.zr.entity.Student;
+
+public class StudentController implements Controller  {
+
+	@Override
+	public ModelAndView handleRequest(HttpServletRequest arg0,
+			HttpServletResponse arg1) throws Exception {
+		ArrayList<Student> list = new ArrayList<Student>();
+		list.add(new Student(1, "stu001", "张三", "男", 20));
+		list.add(new Student(2, "stu002", "张三2", "男", 20));
+		//创建ModelAndView
+		ModelAndView mv = new ModelAndView();
+		//相当于rquest.setAttribute()
+		mv.addObject("list", list);
+		//指定要跳转的jsp
+		mv.setViewName("/index.jsp");
+		return mv;
+	}
+
+}

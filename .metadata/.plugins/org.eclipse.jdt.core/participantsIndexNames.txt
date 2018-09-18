@@ -1,0 +1,17 @@
+INDEX VERSION 1.126
+C:\Users\Administrator\Workspaces\MyEclipse Professional 2014\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2473239436.index
+\day03\src
+C:\Users\Administrator\Workspaces\MyEclipse Professional 2014\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3657295555.index
+\day06\src
+C:\Users\Administrator\Workspaces\MyEclipse Professional 2014\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\323073904.index
+\day0602\src
+C:\Users\Administrator\Workspaces\MyEclipse Professional 2014\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3388971224.index
+\web1\src
+C:\Users\Administrator\Workspaces\MyEclipse Professional 2014\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4034044957.index
+\web2\src
+C:\Users\Administrator\Workspaces\MyEclipse Professional 2014\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4245413374.index
+\web3\src
+C:\Users\Administrator\Workspaces\MyEclipse Professional 2014\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3876171870.index
+\web3\src
+C:\Users\Administrator\Workspaces\MyEclipse Professional 2014\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1364802888.index
+\StudentSys\src
